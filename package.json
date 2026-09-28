@@ -1,0 +1,17 @@
+{
+  "name": "correlation-id-middleware",
+  "version": "0.1.0",
+  "description": "Reads an incoming correlation id header or generates a new uuid, then attaches it to a per-request context and a response header.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
